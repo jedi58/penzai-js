@@ -1,0 +1,68 @@
+.penzai {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.penzai,
+.penzai ul,
+.penzai ol {
+  list-style: none;
+}
+
+.penzai ul,
+.penzai ol {
+  margin: 0;
+  padding-left: 18px;
+  display: none;
+}
+
+.penzai li {
+  position: relative;
+  padding: 2px 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.penzai li[aria-expanded="true"] > ul,
+.penzai li[aria-expanded="true"] > ol {
+  display: block;
+}
+
+/* disclosure triangle */
+.penzai-disclosure {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+}
+
+.penzai-disclosure::before {
+  content: "▶";
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.penzai li[aria-expanded="true"] > .penzai-disclosure::before {
+  content: "▼";
+}
+
+/* leaf nodes */
+.penzai-leaf > .penzai-disclosure {
+  visibility: hidden;
+}
+
+/* checkboxes */
+.penzai-checkbox {
+  margin: 0 4px 0 0;
+  vertical-align: middle;
+}
+
+/* focus highlight */
+.penzai li:focus-visible {
+  background-color: #e8f2ff;
+}
