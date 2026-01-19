@@ -1,5 +1,5 @@
 # penzai-js
-A JavaScript library to create a collapsible tree with optional checkboxes without the use of jQuery, and uses ARIA descriptions.
+A JavaScript library to create a collapsible tree with optional checkboxes without the use of jQuery, and uses ARIA descriptions. It is named after the ancient Chinese art of depicting artistically formed trees, other plants, and landscapes in miniature; similar to Japanese bonsai.
 
 ## Demo
 See [CodePen](https://codepen.io/jedi58/pen/dPXvawW) for an interactive demo
