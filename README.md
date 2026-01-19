@@ -1,7 +1,9 @@
 # penzai-js
 A JavaScript library to create a collapsible tree with optional checkboxes without the use of jQuery, and uses ARIA descriptions.
 
-## Example
+## Demo
+See [CodePen](https://codepen.io/jedi58/pen/dPXvawW) for an interactive demo
+
 <img width="356" height="168" alt="image" src="https://github.com/user-attachments/assets/6a395079-738d-47e5-b2b1-336978652ba0" />
 
 ```html
